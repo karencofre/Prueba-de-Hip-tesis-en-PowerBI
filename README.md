@@ -1,4 +1,4 @@
-# Prueba-de-Hip-tesis-en-PowerBI
+# Pruebas de Hipótesis en PowerBI
 
 Ficha Técnica: Proyecto de Análisis de Datos
 
