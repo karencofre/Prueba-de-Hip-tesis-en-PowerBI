@@ -28,6 +28,17 @@ Procesamiento y análisis:
 Resultados y Conclusiones:
 Se probo la hipótesis mediante insights concluidos por gráficos de la correlación entre variables.
 
+Validación de Hipótesis:
+```python
+alpha = 0.05
+categoria_a = df[df['categoria_streams'] == 'alto'].shape[0]
+categoria_b = df[df['categoria_streams'] == 'bajo' ].shape[0]
+muestra_a, muestra_b = df.shape[0]
+array_categorias = np.array([categoria_a,categoria_b])
+array_muestras = np.array([muestra_a,muestra_b])
+p_valor = proportions_ztest(count= array_categorias,nobs = array_muestras)[1]
+print(f'{p_valor:.3f}')
+```
 
 Dashboard
 
