@@ -13,6 +13,7 @@ Trabajo Grupal.
 Herramientas y Tecnologías:
 - Python
 - Pandas y statsmodels
+- sklearn
 - Google BigQuery.
 - Power BI.
 - Google Slides.
@@ -52,3 +53,4 @@ Sugiere posibles próximos pasos para extender o mejorar el proyecto de análisi
 Enlaces de interés:
 [google slides](https://docs.google.com/presentation/d/1toe7RTKU9dDJpv125bwmL84ZtTEeKtMwZs2N945mfSI/edit?usp=sharing)
 [google colab](https://colab.research.google.com/drive/1RuRjItPZu4b9CAwKEaQ-BCElUiY2CgA6?usp=sharing)
+[google colab ML](https://colab.research.google.com/drive/1nrNIo-hoe_g1MSo_cTtdZuzpdf6RKkMz?usp=sharing)
