@@ -1,4 +1,4 @@
-# Pruebas de Hipótesis en PowerBI
+# Pruebas de Hipótesis y Segmentación en PowerBI
 
 Ficha Técnica: Proyecto de Análisis de Datos
 
