@@ -25,9 +25,30 @@ Procesamiento y análisis:
 Resultados y Conclusiones:
 Se probo la hipótesis mediante insights concluidos por gráficos de la correlación entre variables.
 
+Realizando la segmentación de datos:
+
+```sql
+CREATE OR REPLACE VIEW `datalabp4.proyecto4.quartile_view` AS
+SELECT 
+    a.product_id,
+    a.category_estandarized AS category,
+    a.actual_price,
+    a.discounted_price,
+    a.discount_percentage,
+    b.rating,
+    b.rating_count,
+    NTILE(4) OVER (ORDER BY b.rating_count) AS rating_count_quartile
+FROM 
+    `datalabp4.proyecto4.amazon_product` a
+Inner JOIN 
+    `datalabp4.proyecto4.amazon_review` b
+ON 
+    a.product_id = b.product_id;
+```
+
 Dashboard
 
-![Dashboard](dashboard.jpg)
+![Dashboard](Dashboard-2.jpg)
 
 
 Limitaciones/Próximos Pasos:
@@ -35,4 +56,4 @@ Identifica y describe cualquier limitación o desafío encontrado durante el pro
 Sugiere posibles próximos pasos para extender o mejorar el proyecto de análisis de datos.
 
 Enlaces de interés:
-[google slides](https://docs.google.com/presentation/d/1toe7RTKU9dDJpv125bwmL84ZtTEeKtMwZs2N945mfSI/edit?usp=sharing)
+[google slides](https://docs.google.com/presentation/d/1FH27WlMYhgo-qVLxuCQ-DrhbPc9KH2Gc2nFprKgzgUQ/edit?usp=sharing)
