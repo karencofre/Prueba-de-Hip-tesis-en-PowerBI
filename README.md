@@ -36,4 +36,4 @@ Identifica y describe cualquier limitación o desafío encontrado durante el pro
 Sugiere posibles próximos pasos para extender o mejorar el proyecto de análisis de datos.
 
 Enlaces de interés:
-[google slides](https://docs.google.com/presentation/d/1FH27WlMYhgo-qVLxuCQ-DrhbPc9KH2Gc2nFprKgzgUQ/edit?usp=sharing)
+[google slides](https://docs.google.com/presentation/d/1toe7RTKU9dDJpv125bwmL84ZtTEeKtMwZs2N945mfSI/edit?usp=sharing)
