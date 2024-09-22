@@ -43,7 +43,7 @@ print(f'{p_valor:.3f}')
 
 Dashboard
 
-![Dashboard](dashboard.jpg)
+![Dashboard](Dashboard2.png)
 
 
 Limitaciones/Próximos Pasos:
