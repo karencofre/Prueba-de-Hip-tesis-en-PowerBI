@@ -8,7 +8,7 @@ Objetivo:
 Realizar una prueba de hipótesis, utilizando una técnica de analisis de datos de segmentación y validación de Hipótesis.
 
 Equipo:
-Trabajo Grupal.
+Trabajo Individual.
 
 Herramientas y Tecnologías:
 - Python
