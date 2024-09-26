@@ -29,7 +29,7 @@ Procesamiento y análisis:
 Resultados y Conclusiones:
 Se probo la hipótesis mediante insights concluidos por gráficos de la correlación entre variables.
 
-Validación de Hipótesis:
+Validación de Hipótesis(Z test):
 ```python
 alpha = 0.05
 categoria_a = df[df['categoria_streams'] == 'alto'].shape[0]
